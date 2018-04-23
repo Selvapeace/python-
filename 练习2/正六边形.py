@@ -1,0 +1,15 @@
+import turtle as t
+t.setup(800,650,300,300)
+t.penup()
+t.fd(-100)
+t.left(90)
+t.fd(100)
+t.pendown()
+t.right(90)
+t.fd(200)
+t.seth(-60)
+t.fd(200)
+for i in range(4):
+    t.right(60)
+    t.fd(200)
+t.down()
