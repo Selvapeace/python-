@@ -1,6 +1,6 @@
 # 文本词频统计
 
-# example 1 英文文本
+# 英文文本
 def getText():
     text = open("E:\外文电子书\Harry Potter\Harry Potter and the Sorcerer's Stone.txt",'r').read()
     text = text.lower()                    # 全部小写
